@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("Blue Sea.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-bar{
+    width: 100%;
+    background: black;
+}
+.nav-div{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.logo h1{
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-bar .nav-div ul{
+    display: flex;
+    position: relative;
+}
+.nav-bar .nav-div ul li{
+    margin: 0 20px;
+}
+.nav-bar .nav-div ul li a{
+    color: azure;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all ease .5s;
+    
+}
+.nav-bar .nav-div ul #active{
+    border-bottom: 1px solid #23b6c0;
+   
+}
+.nav-bar .nav-div ul li a:hover{
+    border-bottom: 1px solid #23b6c0;
+    font-weight: bold;
+
+}
+
+/* HEADER SECTION*/
+.container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    margin: 100px auto;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .row .col {
+    padding: 20px 0;
+    
+}
+.row .col h3{
+    color: #fff;
+}
+    
